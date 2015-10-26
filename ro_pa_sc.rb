@@ -1,3 +1,5 @@
+#Emily and Yesi
+
 #initialize game variables 
 game_array = ["rock", "paper", "scissors" ]
 plays = 1
