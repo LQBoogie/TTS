@@ -1,11 +1,11 @@
 
 #Emily Ring 
 
-#Gets amount from user
+#Gets amount from user (changes to int)
 print "Please enter the bill amount: "
 bill_amount = gets.chomp.to_i
 
-#method to calculate top amount 
+#method to calculate tip amount 
 def tip_amount( amount )
    amount * 0.2
 end 
