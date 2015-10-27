@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 #Authors - Emily and Yesi
+=======
+#Emily and Yesi
+#Add extra line!
+>>>>>>> origin/master
 
-#initialize game variables 
+#initialize game variables
 game_array = ["rock", "paper", "scissors" ]
 plays = 1
 computer_score = 0
 player_score = 0
 
-#starts game 
+#starts game
 puts "Let's play Rock. Paper Scissors! The best of five wins!"
 print "Please type 'Rock' 'Paper' or 'Scissors' to start: "
 player_choice = gets.chomp!.downcase
@@ -30,7 +35,7 @@ while ( plays <= 5 )
          plays += 1
       end
 
-   #When player selects scissors 
+   #When player selects scissors
    elsif player_choice == "paper"
       if computer_choice == "rock"
          puts "Paper beats rock. You WIN Round #{plays}!"
@@ -67,8 +72,8 @@ while ( plays <= 5 )
       print "Round #{plays} Please choose again: "
       player_choice = gets.chomp!.downcase
       computer_choice = game_array.sample
-   end 
-end 
+   end
+end
 
 #final scores
 puts " "
@@ -79,6 +84,5 @@ if computer_score > player_score
    puts "Better luck next time"
 else
    puts "You won because you are awesome!"
-end 
+end
 puts " "
-
