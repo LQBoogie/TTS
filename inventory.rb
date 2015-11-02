@@ -1,8 +1,8 @@
-#Inventory from Laquana and Emily
+#Inventory from LaQuana and Emily
 
 #Make an initial inventory and print out all items
-puts "Welcome to Emily and Laquan's inventory!"
-puts "Here is a list of items in the inventory and their quantitiy:"
+puts "Welcome to Emily and LaQuana's inventory!"
+puts "Here is a list of items in the inventory and their quantity:"
 
 #TODO: Create Hash of items in inventory
 candy_type = {"twizzlers" => 20,
@@ -11,7 +11,7 @@ candy_type = {"twizzlers" => 20,
    "reeses" => 20,
    "candy_corn" => 10,
    "skittles" => 20
-   "twix" => 10  }
+   "twix" => 10 }
 
 #TODO: Create a method that prints out the Hash. 
 
@@ -23,7 +23,7 @@ def userinput
    puts
    puts "Please choose a command:"
    puts "Type 'add' to add item to the inventory"
-   puts "Type 'update' to update item in the invetory"
+   puts "Type 'update' to update item in the inventory"
    puts "Type 'print' to view a list of all items in the inventory"
    puts "Type 'quit' to leave the program"
 
