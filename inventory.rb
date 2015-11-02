@@ -11,7 +11,7 @@ candy_type = {"twizzlers" => 20,
    "reeses" => 20,
    "candy_corn" => 10,
    "skittles" => 20
-   "twix" => 10 }
+   "twix" => 10  }
 
 #TODO: Create a method that prints out the Hash. 
 
