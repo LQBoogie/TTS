@@ -1,4 +1,3 @@
-
 #Inventory from Laquana and Emily
 
 #Make an initial inventory and print out all items
@@ -16,6 +15,7 @@ def userinput
    puts "Please choose a command:"
    puts "Type 'add' to add item to the inventory"
    puts "Type 'update' to update item in the invetory"
+   puts "Type 'print' to view a list of all items in the inventory"
    puts "Type 'quit' to leave the program"
 
    #get command from user
@@ -35,9 +35,7 @@ while user_selection != "quit"
    if user_selection == "add"
       #TODO: ask user for item and amount
 
-      #TODO: add item and amount to Hask
-
-      #TODO: Print out hash (Call the method you create up above)
+      #TODO: add item and amount to Hash
 
       #Ask user for new selection
       user_selection = userinput
@@ -48,7 +46,12 @@ while user_selection != "quit"
 
       #TODO: Update Hash amount based on user 
 
-      #TODO: Print out hash (Call the method you create up above)
+      #Ask user for new selection
+      user_selection = userinput
+
+   #User enters 
+   elsif user_selection == "update"
+      #TODO: Print out hash (Call the method you created up above)
 
       #Ask user for new selection
       user_selection = userinput
