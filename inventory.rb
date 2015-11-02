@@ -5,7 +5,16 @@ puts "Welcome to Emily and Laquan's inventory!"
 puts "Here is a list of items in the inventory and their quantitiy:"
 
 #TODO: Create Hash of items in inventory
-#TODO: Create a method that prints out the Hash.  
+candy_type = {"twizzlers" => 20,
+   "snickers" => 10,
+   "gum" => 20
+   "reeses" => 20,
+   "candy_corn" => 10,
+   "skittles" => 20
+   "twix" => 10 }
+
+#TODO: Create a method that prints out the Hash. 
+
 #TODO: Print out hash (Call the method you create)
 
 #Method that gets commands from user 
@@ -50,7 +59,7 @@ while user_selection != "quit"
       user_selection = userinput
 
    #User enters 
-   elsif user_selection == "update"
+   elsif user_selection == "print"
       #TODO: Print out hash (Call the method you created up above)
 
       #Ask user for new selection
